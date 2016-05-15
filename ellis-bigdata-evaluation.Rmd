@@ -1,0 +1,34 @@
+---
+title: "Big data and program / project evaluation"
+author: "Peter Ellis"
+date: "May 2016"
+output:
+  revealjs::revealjs_presentation:
+    fig_height: 3
+    theme: sky
+    includes:
+      in_header: header.css
+---
+
+## Today's talk
+
+* Why might you care
+* What is big data doing anyway?
+* Thoughts from Chicago
+* Implications for evaluation work
+* Implications for evaluator skills
+
+# Why might you care
+
+## Three big impacts
+
+* A new type of evaluand
+* New data for old evaluands
+* New insight from elsewhere
+
+# What is big data 
+
+
+# Thoughts from Chicago
+
+
