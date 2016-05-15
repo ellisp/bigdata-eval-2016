@@ -18,17 +18,131 @@ output:
 * Implications for evaluation work
 * Implications for evaluator skills
 
-# Why might you care
-
-## Three big impacts
+## Why might you care
 
 * A new type of evaluand
 * New data for old evaluands
 * New insight from elsewhere
+* A whole new skillset
 
 # What is big data 
 
+## Some unsatisfactory definitions
+
+> - "data sets that are so large or complex that traditional data processing applications are inadequate."
+> - "velocity, volume, variety"
+> -  "The convergence of enterprise and consumer IT"
+> -  "The new tools helping us find relevant data and analyze its implications."
+> -  "A new attitude ... that combining data from multiple sources could lead to better decisions."
+
+## My definition (today)
+
+*Digital traces of everyday activity, collected and stored at much finer resolution and higher frequency than pre 2000*
+
+> - wearable devices like fitbits
+> - individual financial transactions
+> - mouse events
+> - motion sensors
+> - CCTV
+> - GPS tracking in phones and cars
+> - smart electricity meters
+
+## Different types
+
+![types](images/types-table.PNG)
+
+# Some examples
+
+## 
+![googlemaps](images/googlemaps.PNG)
+
+## Capacity planning
+![telco](images/telco-capacity-datameer.PNG)
+
+
+## 
+![customer](images/customer-360.PNG)
+
+## Official statistics
+
+![stats](images/official-stats.PNG)
+
+## {data-background-video="rotating2.mp4"}
 
 # Thoughts from Chicago
 
 
+## A whole new skillset
+
+```{r, cache = TRUE, echo = FALSE, fig.height = 6, fig.width = 6}
+library(gridExtra)
+library(grid)
+library(RColorBrewer)
+
+palette <- brewer.pal(3, "Set1")
+
+
+
+radius <- 0.3
+strokecol <- "grey50"
+linewidth <- 4
+fs <- 11
+
+draw_diagram <- function(){
+grid.newpage()
+grid.circle(0.33, 0.67, radius, gp = 
+               gpar(col = strokecol,
+                    fill = palette[1],
+                    alpha = 0.2,
+                    lwd = linewidth))
+
+grid.circle(0.67, 0.67, radius, gp =
+            gpar(col = strokecol,
+                 fill = palette[2],
+                 alpha = 0.2,
+                 lwd = linewidth))
+
+grid.circle(0.5, 0.33, radius, gp =
+               gpar(col = strokecol,
+                    fill = palette[3],
+                    alpha = 0.2,
+                    lwd = linewidth))
+
+grid.text("Hacking", 0.25, 0.75, rot = 45, gp =
+             gpar(fontsize = fs * 2.3,
+                  col = palette[1],
+                  fontface = "bold"))
+
+grid.text("Statistics", 0.75, 0.75, rot = -45, gp =
+             gpar(fontsize = fs * 2.3,
+                  col = palette[2],
+                  fontface = "bold"))
+
+grid.text("Content\nknowledge", 0.5, 0.25, rot = 0, gp =
+             gpar(fontsize = fs * 2.3,
+                  col = palette[3],
+                  fontface = "bold"))
+
+grid.text("Danger:\nno context", 0.5, 0.75,
+          gp = gpar(fontsize = fs))
+
+grid.text("Danger: no\nunderstanding\nof probability", 0.32, 0.48, rot = 45,
+          gp = gpar(fontsize = fs))
+
+grid.text("Traditional\nresearch", 0.66, 0.46, rot = -45,
+          gp = gpar(fontsize = fs))
+
+
+grid.text("Data science /\napplied\nstatistics", 0.5, 0.55, 
+          gp = gpar(fontsize = fs * 1.2,
+                    fontface = "bold"))
+}
+draw_diagram()
+
+```
+
+## References
+
+http://www.datameer.com/wp-content/uploads/2015/11/Telco-Network-Capacity-Planning.pdf
+http://www-01.ibm.com/software/data/bigdata/use-cases/enhanced360.html
+https://lindaraftree.com/2015/11/23/big-data-in-development-evaluation/

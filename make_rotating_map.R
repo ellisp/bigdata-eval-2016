@@ -194,3 +194,9 @@ for (i in 1:length(ps)){
   }
 }
 
+setwd(paste0(projdir, "/anim1"))
+system('"C:\\Program Files\\ImageMagick-6.9.1-Q16\\convert" -loop 0 -delay 5 *.png "../rotating_map.gif"')
+
+
+setwd(projdir)
+

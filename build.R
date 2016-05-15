@@ -4,4 +4,3 @@ library(shinyapps)
 
 render("ellis-bigdata-evaluation.Rmd")
 
-
