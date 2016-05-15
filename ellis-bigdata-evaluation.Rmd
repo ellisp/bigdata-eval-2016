@@ -73,13 +73,16 @@ output:
 ## 
 ![smartmeter](images/smart-grid.PNG)
 
+##
+![facebook](images/facebook.png)
+
 # No longer "hype"?
 
-## Gartner hype cycle 2014
+## Gartner hype cycle 2014 {data-transition="fade-out"}
 
-![g2014](images/gartner-2014.jpg)
+![g2014](images/gartner-2014.jpg) 
 
-## Gartner hype cycle 2014
+## Gartner hype cycle 2015 {data-transition="fade-in"}
 
 ![g2015](images/gartner-2015.png)
 
