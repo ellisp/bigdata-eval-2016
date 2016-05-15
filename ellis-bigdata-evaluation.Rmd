@@ -21,19 +21,19 @@ output:
 ## Why might you care
 
 * A new type of evaluand
+* New insight as background knowledge
 * New data for old evaluands
-* New insight from elsewhere
 * A whole new skillset
 
 # What is big data 
 
 ## Some unsatisfactory definitions
 
-> - "data sets that are so large or complex that traditional data processing applications are inadequate."
-> - "velocity, volume, variety"
-> -  "The convergence of enterprise and consumer IT"
-> -  "The new tools helping us find relevant data and analyze its implications."
-> -  "A new attitude ... that combining data from multiple sources could lead to better decisions."
+> - "Data sets that are so large or complex that traditional data processing applications are inadequate."
+> - "Velocity, volume, variety"
+> - "The convergence of enterprise and consumer IT"
+> - "The new tools helping us find relevant data and analyze its implications."
+> - "A new attitude ... that combining data from multiple sources could lead to better decisions."
 
 ## My definition (today)
 
@@ -63,13 +63,84 @@ output:
 ## 
 ![customer](images/customer-360.PNG)
 
+
+##
+![twitter](images/twitter_network.png)
+
+##
+![crispr](images/crispr.png)
+
+## 
+![smartmeter](images/smart-grid.PNG)
+
+# No longer "hype"?
+
+## Gartner hype cycle 2014
+
+![g2014](images/gartner-2014.jpg)
+
+## Gartner hype cycle 2014
+
+![g2015](images/gartner-2015.png)
+
 ## Official statistics
 
 ![stats](images/official-stats.PNG)
 
 ## {data-background-video="rotating2.mp4"}
 
-# Thoughts from Chicago
+# Thoughts from a Chicago roundtable
+
+## Opportunities
+
+> - Build counterfactuals when not previously possible?
+> - Whole new sources of data?
+> - Use predictive capabilities to plan quasi-experiments
+> - Provide clues to what needs further examination by other methods
+
+## Reservations expressed
+
+> - Populations we work with often don't leave a digital trail
+> - Satellite imagery good for environmental work, but what is the social equivalent?
+> - Do evaluators have the skills?
+> - New analytical methods better at prediction than explaining causality...
+
+## Michael Bamberger's 'high applicability' set (1) {data-transition="fade-out"}
+
+> - Large, complex interventions
+> - Conventional evaluation designs methodologically weak
+> - Easy, physical measurement
+> - Indicators have construct validity
+
+## Michael Bamberger's 'high applicability' set (2) {data-transition="fade-in"}
+
+> - Long duration
+> - Continue to operate beyond proof of concept so can test against prediction
+> - Large number of potential variables and no clear theoretical way through
+> - No political concerns about data ownership, privacy etc
+
+
+
+# So what might it mean in New Zealand...
+
+## New evaluands
+
+* Government and even NGO programs will increasingly be based on data-intensive analytics (eg social investment approach)
+* Private sector is embracing this area fast, although New Zealand has a way to go
+* When the evaluand is a big-data intervention, you'll need to construct a big data quasi experiment to be credible
+
+## New sources of insight outside the evaluand
+
+* Official statistics will increasingly be based on admin data including big data
+* Big data will change the background level of knowledge in many areas of social science
+* Other countries' social and economic sectors will build much more profound understanding of what works
+
+## New methods
+
+* Interventions that don't think of themselves as "big data" will increasingly generate it as a side product
+* We won't have the luxury of insisting on exactly the right indicator, but will have to get (very) good at separating the signal from the noise with proxies
+* We have to get on top of the accidental opportunities arising from the routine storage of sensor, administrative, and other information
+
 
 
 ## A whole new skillset
@@ -143,6 +214,9 @@ draw_diagram()
 
 ## References
 
-http://www.datameer.com/wp-content/uploads/2015/11/Telco-Network-Capacity-Planning.pdf
-http://www-01.ibm.com/software/data/bigdata/use-cases/enhanced360.html
-https://lindaraftree.com/2015/11/23/big-data-in-development-evaluation/
+* http://www.datameer.com/wp-content/uploads/2015/11/Telco-Network-Capacity-Planning.pdf
+* http://www-01.ibm.com/software/data/bigdata/use-cases/enhanced360.html
+* https://lindaraftree.com/2015/11/23/big-data-in-development-evaluation/
+* http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
+* http://www.kdnuggets.com/2015/08/gartner-2015-hype-cycle-big-data-is-out-machine-learning-is-in.html
+* http://www.owen.org/blog/116

@@ -1,0 +1,9 @@
+base
+knitr
+rmarkdown
+shinyapps
+sysfonts
+showtext
+Cairo
+gridExtra
+RColorBrewer
