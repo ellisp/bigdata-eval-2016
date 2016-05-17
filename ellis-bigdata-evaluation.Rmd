@@ -29,6 +29,8 @@ output:
 
 ## Some unsatisfactory definitions
 
+> - "Too big for Excel"
+> - "Too big for a single SQL Server instance"
 > - "Data sets that are so large or complex that traditional data processing applications are inadequate."
 > - "Velocity, volume, variety"
 > - "The convergence of enterprise and consumer IT"
@@ -51,6 +53,12 @@ output:
 
 ![types](images/types-table.PNG)
 
+## The data revolution
+
+* New statistical methods post 1970
+* Rise in computing power
+* Increasing scope of data capture
+
 # Some examples
 
 ## 
@@ -68,13 +76,19 @@ output:
 ![twitter](images/twitter_network.png)
 
 ##
+![facebook](images/facebook.png)
+
+##
+![facebook](images/watson-jeopardy-940px.jpg)
+
+##
+![facebook](images/heart-illustration2-resized.jpg)
+
+##
 ![crispr](images/crispr.png)
 
 ## 
 ![smartmeter](images/smart-grid.PNG)
-
-##
-![facebook](images/facebook.png)
 
 # No longer "hype"?
 
@@ -215,7 +229,7 @@ draw_diagram()
 
 ```
 
-## References
+## selected References
 
 * http://www.datameer.com/wp-content/uploads/2015/11/Telco-Network-Capacity-Planning.pdf
 * http://www-01.ibm.com/software/data/bigdata/use-cases/enhanced360.html
