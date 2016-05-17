@@ -58,6 +58,7 @@ output:
 * New statistical methods post 1970
 * Rise in computing power
 * Increasing scope of data capture
+* AI explosion post-2000
 
 # Some examples
 
@@ -229,7 +230,7 @@ draw_diagram()
 
 ```
 
-## selected References
+## selected  References
 
 * http://www.datameer.com/wp-content/uploads/2015/11/Telco-Network-Capacity-Planning.pdf
 * http://www-01.ibm.com/software/data/bigdata/use-cases/enhanced360.html
